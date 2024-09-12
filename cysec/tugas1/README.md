@@ -1,3 +1,5 @@
+# For Educational Purpose
+
 Jalankan program ini dengan menggunakan 
 ```bash
 python httpflood.py <Hostname> <Port> <Number_of_Attacks>
