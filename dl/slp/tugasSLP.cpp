@@ -173,7 +173,7 @@ int main() {
   readIrisData("test.csv");
 
   train();
-  saveCombinedCSV("combined_results_train.csv");
+  saveCombinedCSV("combined_results_test.csv");
   for (int epoch = 0; epoch < accuracies.size(); epoch++) {
     resultFile << epoch + 1 << "," << accuracies[epoch][0] << "," << meanErrors[epoch][0] << "\n";
   }
